@@ -23,15 +23,15 @@
 
 
 	<distributionManagement>
-		<!-- <repository>
-		<id>nexus-release</id>
-				<url>http://localhost:8081/nexus/content/repositories/</url>
-		</repository> -->
+		 <repository>
+		<id>nexus-releases</id>
+			<url>http://localhost:8081/repository/maven-releases</url>
+		</repository>
 
-		<snapshotRepository>
-			<id>nexus-snapshots</id>
-			<url>http://localhost:8081/nexus/content/repositories/snapshots</url>
-		</snapshotRepository>
+		<!-- <snapshotRepository>
+			<id>nexus-releases</id>
+			<url>http://localhost:8081/repository/maven-releases</url>
+		</snapshotRepository> -->
 	</distributionManagement>
 
 </project>
